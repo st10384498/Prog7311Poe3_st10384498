@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Farmer Login";
+}
+
+<style>
+    body {
+        background-color: #004d00;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+    }
+
+    .form-container {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px 2px #00000050;
+        max-width: 600px;
+        margin: 50px auto;
+    }
+
+        .form-container h1, .form-container h4 {
+            text-align: center;
+            color: #006600;
+        }
+
+    .form-group label {
+        font-weight: bold;
+        color: #004d00;
+    }
+
+    .form-control::placeholder {
+        color: #999;
+    }
+
+    .btn-primary {
+        background-color: #ffcc00;
+        border-color: #e6b800;
+        color: #000;
+        font-weight: bold;
+        width: 100%;
+    }
+
+        .btn-primary:hover {
+            background-color: #e6b800;
+        }
+
+    a {
+        color: #ffcc00;
+    }
+</style>
+
+<div class="form-container">
+    <h1>Login</h1>
+    <h4>Farmer Access</h4>
+    <hr />
+    <form asp-action="Login" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group mb-3">
+            <label for="username">Username</label>
+            <input name="username" class="form-control" placeholder="Enter username" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="password">Password</label>
+            <input type="password" name="password" class="form-control" placeholder="Enter password" />
+        </div>
+
+        <div class="form-group mb-3">
+            <input type="submit" value="Login" class="btn btn-primary" />
+        </div>
+    </form>
+
+    <div class="text-center mt-3">
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

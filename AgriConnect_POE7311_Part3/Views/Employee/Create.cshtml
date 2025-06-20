@@ -1,0 +1,120 @@
+﻿@model AgriConnect_POE7311_Part3.Models.Employee
+
+@{
+    ViewData["Title"] = "Create";
+}
+<style>
+    body {
+        background-color: #004d00;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+    }
+
+    .form-container {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px 2px #00000050;
+        max-width: 600px;
+        margin: 50px auto;
+    }
+
+        .form-container h1, .form-container h4 {
+            text-align: center;
+            color: #006600;
+        }
+
+    .form-group label {
+        font-weight: bold;
+        color: #004d00;
+    }
+
+    .form-control::placeholder {
+        color: #999;
+    }
+
+    .form-text {
+        font-size: 0.875em;
+        color: #555;
+    }
+
+    .btn-primary {
+        background-color: #ffcc00;
+        border-color: #e6b800;
+        color: #000;
+        font-weight: bold;
+        width: 100%;
+    }
+
+        .btn-primary:hover {
+            background-color: #e6b800;
+        }
+
+    a {
+        color: #ffcc00;
+    }
+
+    .centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<div class="form-container">
+    <h1>Create</h1>
+    <h4>Employee</h4>
+    <hr />
+
+    <form asp-action="Create" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="FullName" class="control-label"></label>
+            <input asp-for="FullName" class="form-control" placeholder="e.g. Thabo Mokoena" required />
+            <small class="form-text">Enter the employee’s full legal name.</small>
+            <span asp-validation-for="FullName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Email" class="control-label"></label>
+            <input asp-for="Email" class="form-control" placeholder="e.g. thabo@example.com" required />
+            <small class="form-text">Use a valid company or work-related email address.</small>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Username" class="control-label"></label>
+            <input asp-for="Username" class="form-control" placeholder="Choose a unique username" required />
+            <small class="form-text">Username used to log into the system.</small>
+            <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="PasswordHash" class="control-label">Password</label>
+            <input asp-for="PasswordHash" class="form-control" placeholder="Create a secure password" type="password" required />
+            <small class="form-text">Password should be at least 8 characters long.</small>
+            <span asp-validation-for="PasswordHash" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Department" class="control-label"></label>
+            <input asp-for="Department" class="form-control" placeholder="e.g. Operations, HR, Finance" required />
+            <small class="form-text">Enter the department the employee belongs to.</small>
+            <span asp-validation-for="Department" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </form>
+
+   
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

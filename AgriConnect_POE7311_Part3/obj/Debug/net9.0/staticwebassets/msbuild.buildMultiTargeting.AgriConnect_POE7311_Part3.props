@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AgriConnect_POE7311_Part3.props" />
+</Project>

@@ -1,0 +1,97 @@
+﻿@model AgriConnect_POE7311_Part3.Models.ProductFilterViewModel
+<style>
+    body {
+        background-color: #004d00;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+    }
+
+    .form-container {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px 2px #00000050;
+        max-width: 600px;
+        margin: 50px auto;
+    }
+
+        .form-container h1, .form-container h4 {
+            text-align: center;
+            color: #006600;
+        }
+
+    .form-group label {
+        font-weight: bold;
+        color: #004d00;
+    }
+
+    .form-control::placeholder {
+        color: #999;
+    }
+
+    .btn-primary {
+        background-color: #ffcc00;
+        border-color: #e6b800;
+        color: #000;
+        font-weight: bold;
+        width: 100%;
+    }
+
+        .btn-primary:hover {
+            background-color: #e6b800;
+        }
+
+    a {
+        color: #ffcc00;
+    }
+</style>
+<h1>Products</h1>
+
+<form asp-action="Index" method="get" class="mb-3">
+    <div class="form-group row">
+        <label for="CategoryId" class="col-form-label col-sm-2">Filter by Category:</label>
+        <div class="col-sm-6">
+            <select asp-for="CategoryId" class="form-control" asp-items="Model.Categories">
+                <option value="">-- All Categories --</option>
+            </select>
+        </div>
+        <div class="col-sm-2">
+            <button type="submit" class="btn btn-success">Filter</button>
+        </div>
+    </div>
+</form>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            <th>Product Name</th>
+            <th>Production Date</th>
+            <th>Created At</th>
+            <th>Category</th>
+            <th>Farmer</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Products)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.ProductionDate</td>
+                <td>@item.CreatedAt?.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>@item.Category?.CategoryName</td>
+                <td>@item.Farmer?.FarmerId</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

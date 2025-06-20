@@ -1,0 +1,115 @@
+﻿@model AgriConnect_POE7311_Part3.Models.Farmer
+
+@{
+    ViewData["Title"] = "Register as Farmer";
+}
+<style>
+    body {
+        background-color: #004d00;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+    }
+
+    .form-container {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px 2px #00000050;
+        max-width: 600px;
+        margin: 50px auto;
+    }
+
+        .form-container h1, .form-container h4 {
+            text-align: center;
+            color: #006600;
+        }
+
+    .form-group label {
+        font-weight: bold;
+        color: #004d00;
+    }
+
+    .form-control::placeholder {
+        color: #999;
+    }
+
+    .btn-primary {
+        background-color: #ffcc00;
+        border-color: #e6b800;
+        color: #000;
+        font-weight: bold;
+        width: 100%;
+    }
+
+        .btn-primary:hover {
+            background-color: #e6b800;
+        }
+
+    a {
+        color: #ffcc00;
+    }
+</style>
+<h2 class="text-center text-success">@ViewData["Title"]</h2>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="FullName" class="control-label">Full Name</label>
+                <input asp-for="FullName" class="form-control" placeholder="Enter full name" required />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email" class="control-label">Email Address</label>
+                <input asp-for="Email" class="form-control" placeholder="e.g. user@example.com" type="email" required />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Username" class="control-label">Username</label>
+                <input asp-for="Username" class="form-control" placeholder="Choose a username" required />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PasswordHash" class="control-label">Password</label>
+                <input asp-for="PasswordHash" class="form-control" placeholder="Create a password" type="password" required />
+                <span asp-validation-for="PasswordHash" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Address" class="control-label">Address</label>
+                <input asp-for="Address" class="form-control" placeholder="Enter address" required />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ContactNumber" class="control-label">Contact Number</label>
+                <input asp-for="ContactNumber" class="form-control" type="tel" placeholder="e.g. 0831234567" required />
+                <span asp-validation-for="ContactNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ProfileImagePath" class="control-label">Profile Image</label>
+                <input asp-for="ProfileImagePath" class="form-control" type="file" />
+                <span asp-validation-for="ProfileImagePath" class="text-danger"></span>
+            </div>
+
+            <input type="hidden" asp-for="CreatedAt" value="@DateTime.Now" />
+
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-warning w-100 fw-bold">Register</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

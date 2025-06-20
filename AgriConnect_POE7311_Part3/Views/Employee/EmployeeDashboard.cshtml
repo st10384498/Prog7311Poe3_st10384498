@@ -1,0 +1,97 @@
+﻿@model AgriConnect_POE7311_Part3.Models.Employee
+
+@{
+    ViewData["Title"] = "Employee Dashboard";
+}
+<style>
+    body {
+        background-color: #004d00;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+    }
+
+    .dashboard-container {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        max-width: 800px;
+        margin: 50px auto;
+    }
+
+    .dashboard-header h2 {
+        text-align: center;
+        color: #006600;
+        margin-bottom: 30px;
+    }
+
+    .employee-info p {
+        font-size: 1.1em;
+        margin: 8px 0;
+    }
+
+    .employee-info strong {
+        color: #004d00;
+    }
+
+    .btn-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .btn {
+        flex: 1;
+        min-width: 180px;
+        font-weight: bold;
+    }
+
+    .btn-success {
+        background-color: #ffcc00;
+        border-color: #e6b800;
+        color: #000;
+    }
+
+        .btn-success:hover {
+            background-color: #e6b800;
+            color: #000;
+        }
+
+    .alert {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    a {
+        color: #004d00;
+        text-decoration: none;
+    }
+</style>
+
+<div class="dashboard-container">
+    <div class="dashboard-header">
+        <h2>Welcome to Your Dashboard</h2>
+    </div>
+
+    @if (TempData["WelcomeMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["WelcomeMessage"]
+        </div>
+    }
+
+    <div class="employee-info mb-4">
+        <h4>@Model.FullName</h4>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Department:</strong> @Model.Department</p>
+        <p><strong>Joined:</strong> @Model.CreatedAt?.ToString("yyyy-MM-dd HH:mm")</p>
+    </div>
+
+    <div class="btn-group">
+        <a asp-controller="Employee" asp-action="Index" class="btn btn-success">Manage Employees</a>
+        <a asp-controller="Farmer" asp-action="Index" class="btn btn-success">Manage Farmers</a>
+        <a asp-controller="Product" asp-action="Index" class="btn btn-success">View Stock</a>
+    </div>
+</div>
