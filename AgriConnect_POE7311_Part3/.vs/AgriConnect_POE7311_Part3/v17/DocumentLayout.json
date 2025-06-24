@@ -126,8 +126,7 @@
               "RelativeToolTip": "Views\\Employee\\EmployeeDashboard.cshtml",
               "ViewState": "AgIAAGEAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T20:12:34.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T20:12:34.905Z"
             },
             {
               "$type": "Document",
@@ -135,12 +134,11 @@
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\EmployeeController.cs*",
-              "RelativeToolTip": "Controllers\\EmployeeController.cs*",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
               "ViewState": "AgIAAJAAAAAAAAAAAAAYwJ4AAAAHAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T18:02:18.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T18:02:18.025Z"
             },
             {
               "$type": "Document",
@@ -150,7 +148,7 @@
               "RelativeDocumentMoniker": "Controllers\\FarmerController.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\FarmerController.cs*",
               "RelativeToolTip": "Controllers\\FarmerController.cs*",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAQwGAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAACAz8zMzMwWwHMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T18:03:56.073Z",
               "EditorCaption": ""
@@ -161,12 +159,11 @@
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\ProductController.cs*",
-              "RelativeToolTip": "Controllers\\ProductController.cs*",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
               "ViewState": "AgIAAJgAAAAA0szMzMwpwE4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T18:05:34.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T18:05:34.937Z"
             },
             {
               "$type": "Document",
@@ -178,8 +175,7 @@
               "RelativeToolTip": "Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T19:09:25.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T19:09:25.991Z"
             },
             {
               "$type": "Document",
@@ -187,12 +183,11 @@
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Employee\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Employee\\Create.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Employee\\Create.cshtml*",
-              "RelativeToolTip": "Views\\Employee\\Create.cshtml*",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T20:04:38.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T20:04:38.788Z"
             },
             {
               "$type": "Document",
@@ -204,8 +199,7 @@
               "RelativeToolTip": "Views\\Employee\\Login.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAYwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T15:51:56.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T15:51:56.783Z"
             },
             {
               "$type": "Document",
@@ -217,8 +211,7 @@
               "RelativeToolTip": "Views\\Farmer\\Login.cshtml",
               "ViewState": "AgIAADMAAAAANjMzMzPrvzoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-17T19:12:13.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T19:12:13.369Z"
             },
             {
               "$type": "Document",
@@ -230,8 +223,7 @@
               "RelativeToolTip": "Views\\Product\\Create.cshtml",
               "ViewState": "AgIAAEgAAACIZWZmZmYUwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T15:48:53.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T15:48:53.867Z"
             },
             {
               "$type": "Document",

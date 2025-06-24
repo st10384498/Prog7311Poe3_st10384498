@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\controllers\\farmercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:controllers\\farmercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\views\\employee\\employeedashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:views\\employee\\employeedashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\views\\employee\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:views\\employee\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\views\\employee\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:views\\employee\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\views\\farmer\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\controllers\\farmercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:controllers\\farmercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:views\\farmer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|c:\\users\\lab_services_student\\desktop\\agriconnect_poe7311_part3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8E22527D-C727-4FE8-81C8-832306C0760D}|AgriConnect_POE7311_Part3.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -110,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,32 +118,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "EmployeeDashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Employee\\EmployeeDashboard.cshtml",
               "RelativeDocumentMoniker": "Views\\Employee\\EmployeeDashboard.cshtml",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Employee\\EmployeeDashboard.cshtml",
               "RelativeToolTip": "Views\\Employee\\EmployeeDashboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T20:12:34.905Z",
+              "WhenOpened": "2025-06-20T20:12:34.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAYwJ4AAAAHAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:02:18.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FarmerController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\FarmerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FarmerController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\FarmerController.cs*",
+              "RelativeToolTip": "Controllers\\FarmerController.cs*",
+              "ViewState": "AgIAACkAAAAAgAAAAADAv0MAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:03:56.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FarmerController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\FarmerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FarmerController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\FarmerController.cs",
-              "RelativeToolTip": "Controllers\\FarmerController.cs",
-              "ViewState": "AgIAABkAAAAAm5mZmRkQwG0AAAAxAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAJgAAAAA0szMzMwpwE4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T18:03:56.073Z"
+              "WhenOpened": "2025-06-17T18:05:34.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T19:09:25.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T20:04:38.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Employee\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Login.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Employee\\Login.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Login.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T15:51:56.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Farmer\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Farmer\\Login.cshtml",
@@ -151,38 +211,11 @@
               "RelativeToolTip": "Views\\Farmer\\Login.cshtml",
               "ViewState": "AgIAADMAAAAANjMzMzPrvzoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-17T19:12:13.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T19:12:13.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Employee\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Login.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Employee\\Login.cshtml*",
-              "RelativeToolTip": "Views\\Employee\\Login.cshtml*",
-              "ViewState": "AgIAADMAAAAAAAAAAAAYwFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T15:51:56.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Employee\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Create.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Employee\\Create.cshtml*",
-              "RelativeToolTip": "Views\\Employee\\Create.cshtml*",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAYwHoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T20:04:38.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
@@ -190,12 +223,11 @@
               "RelativeToolTip": "Views\\Product\\Create.cshtml",
               "ViewState": "AgIAAEgAAACIZWZmZmYUwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T15:48:53.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T15:48:53.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
@@ -207,19 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAIcAAAAgAQAAAEApwJoAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T18:02:18.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -231,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -243,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
@@ -255,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Models\\Employee.cs",
@@ -267,19 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAFIAAAAAzczMzEwmwG4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T18:05:34.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Farmer\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Farmer\\Index.cshtml",
@@ -291,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ProductFilterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Models\\ProductFilterViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ProductFilterViewModel.cs",
@@ -303,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FarmerDashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Farmer\\FarmerDashboard.cshtml",
               "RelativeDocumentMoniker": "Views\\Farmer\\FarmerDashboard.cshtml",
@@ -315,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
@@ -327,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -339,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -351,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Farmer\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Farmer\\Details.cshtml",
@@ -363,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Views\\Farmer\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Farmer\\Create.cshtml",
@@ -375,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Farmer.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Models\\Farmer.cs",
               "RelativeDocumentMoniker": "Models\\Farmer.cs",
@@ -384,18 +392,6 @@
               "ViewState": "AgIAAAYAAAAAmpmZmRkqwBcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T11:41:01.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\AgriConnect_POE7311_Part3\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T19:09:25.991Z"
             },
             {
               "$type": "Document",

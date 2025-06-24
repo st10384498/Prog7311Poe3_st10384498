@@ -59,9 +59,13 @@ namespace AgriConnect_POE7311_Part3.Controllers
                 try
                 {
                     farmer.CreatedAt = DateTime.Now;
+
+                    // Save the new farmer to the database
                     _context.Add(farmer);
                     await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
+
+                    // Redirect user to the Login view after successful registration
+                    return RedirectToAction("Login", "Farmer"); // <-- Changed this line
                 }
                 catch (Exception ex)
                 {
@@ -70,6 +74,7 @@ namespace AgriConnect_POE7311_Part3.Controllers
             }
             return View(farmer);
         }
+
 
         // GET: Farmer/FarmerDashboard
         public async Task<IActionResult> FarmerDashboard(int id)
@@ -93,8 +98,9 @@ namespace AgriConnect_POE7311_Part3.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        //How (2018). Stack Overflow. [online] Stack Overflow. Available at:  https://stackoverflow.com/questions/50048487/how-to-understand-string-isnullorwhitespaces-syntax [Accessed 20 Jun. 2025].
         public async Task<IActionResult> Login(string username, string password)
-        {/*How (2018). Stack Overflow. [online] Stack Overflow. Available at:  https://stackoverflow.com/questions/50048487/how-to-understand-string-isnullorwhitespaces-syntax [Accessed 20 Jun. 2025].*/‌
+        {
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
             {// // Validate input: both username and password must be provided
                 ModelState.AddModelError("", "Username and password are required.");
@@ -107,7 +113,7 @@ namespace AgriConnect_POE7311_Part3.Controllers
             if (farmer != null)
             {
                 TempData["WelcomeMessage"] = $"Welcome back, {farmer.FullName}!";
-                return RedirectToAction("EmployeeDashboard", new { id = farmer.FarmerId });
+                return RedirectToAction("FarmerDashboard", new { id = farmer.FarmerId });
             }
 
             ModelState.AddModelError("", "Invalid username or password.");
